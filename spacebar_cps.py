@@ -11,7 +11,7 @@ def check_key():
     global num, key_is_down
     current_time = time.time()
     
-    if keyboard.is_pressed('space'):
+    if keyboard.is_pressed("space"):
         if not key_is_down:
             num += 1
             key_is_down = True
